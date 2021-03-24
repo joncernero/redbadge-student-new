@@ -1,12 +1,12 @@
-import React from "react";
-import { Alert, Container } from "reactstrap";
+import React from 'react';
+import { Alert, Container } from 'reactstrap';
 
 const FunctionalProps = (props) => {
   const { numbers } = props;
   function displayAlerts() {
     return numbers.map((num, index) => (
-      <Alert key={index} color={num % 2 === 0 ? "success" : "danger"}>
-        The number is {num}{" "}
+      <Alert key={index} color={num % 2 === 0 ? 'success' : 'danger'}>
+        The number is {num}{' '}
       </Alert>
     ));
   }

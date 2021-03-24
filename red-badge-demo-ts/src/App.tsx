@@ -1,7 +1,8 @@
-import React from "react";
-import { Container } from "reactstrap";
+import React from 'react';
+import { Container } from 'reactstrap';
 
-import FunctionalProps from "./components/FunctionalProps";
+import FunctionalProps from './components/FunctionalProps';
+import CallsComponentProps from './components/ClassComponentProps';
 
 function App() {
   const numArray = [3, 5, 6, 7, 2, 6, 23, 5, 34];
@@ -15,6 +16,7 @@ function App() {
         </p>
       </Container>
       <FunctionalProps numbers={numArray} />
+      <CallsComponentProps numbers={numArray} />
     </div>
   );
 }
