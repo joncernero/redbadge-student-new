@@ -35,3 +35,4 @@ console.log(`The current temperature is ${weather.temp} and the sky is currently
 //   cloudConditions: 'overcast',
 //   next5dayTemp: [81,74,79,81,81],
 // }
+//# sourceMappingURL=learning-ts.js.map
