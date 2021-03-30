@@ -1,9 +1,14 @@
-import React from "react";
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import MainPage from './components/Main';
 
 function App() {
   return (
-    <div className="container">
-      <p>Hi from App.tsx</p>
+    <div className='container'>
+      <Header />
+      <MainPage />
+      <Footer />
     </div>
   );
 }
